@@ -3,7 +3,7 @@ require "yaml"
 
 def load_library(file)
   binding.pry
-  file = YAML.load_file(file)
+  thing = YAML.load_file(file)
 
 end
 
