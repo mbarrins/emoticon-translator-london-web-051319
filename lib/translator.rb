@@ -8,7 +8,7 @@ def load_library(file)
   # get_meaning = thing.map{|k,v| [v[1], k]}.to_h
   # get_emoticon = thing.map{|k,v| [v[0], v[1]]}.to_h
   {
-    "get_meaning"=> thing.map{|k,v| [v[1], k]}.to_h, 
+    "get_meaning"=> thing.map{|k,v| [v[1], k]}.to_h,
     "get_emoticon" => thing.map{|k,v| [v[0], v[1]]}.to_h
   }
 
