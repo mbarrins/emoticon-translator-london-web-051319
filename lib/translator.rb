@@ -4,6 +4,7 @@ require "yaml"
 def load_library(file)
   binding.pry
   thing = YAML.load_file(file)
+  puts thing.inspect
 
 end
 
