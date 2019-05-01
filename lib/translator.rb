@@ -6,7 +6,7 @@ def load_library(file)
   puts thing.inspect
   binding.pry
 
-end 
+end
 
 def get_japanese_emoticon
   emoticons = load_library('emoticons.yml')
